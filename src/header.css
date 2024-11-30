@@ -1,0 +1,77 @@
+/* Header.css */
+/*
+Colours:
+#FEFAF6 //light brown
+#9E6240 //Darker brown
+
+#C1DFF0 //Light blue
+#5D737E //Med grey
+#2B3555 //Dark blue
+
+Fonts:
+Quicksand - Sans-serif rounded font
+ComingSoon - Handwriting
+*/
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Quicksand:wght@300..700&display=swap');
+
+h1 {
+  margin: 0;
+  font-weight: 500;
+}
+
+body {
+  background-color: #FEFAF6;
+  font-family: 'Quicksand', sans-serif;
+  color: #5D737E;
+}
+
+/* Style the Navbar background and text */
+.navbar {
+  padding: 1rem 2rem; /* Padding around the navbar */
+}
+
+/* Style for Navbar Brand (Logo or title) */
+.navbar-brand {
+  font-size: 3rem; /* Larger font size for the brand */
+  font-family: "Quicksand", cursive;
+  color: #5D737E; /* Light color for text */
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.navbar-brand:hover {
+  color: #2B3555; /* Hover color for brand */
+}
+
+/* Style the Navbar Links */
+.nav-link {
+  font-size: 1.1rem; /* Slightly larger text for links */
+  color: #5D737E; /* Light color for links */
+  margin-left: 1rem; /* Space between links */
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.nav-link:hover {
+  color: #2B3555; /* Hover color for links */
+}
+
+/* Style the Navbar Toggle (Hamburger icon) */
+.navbar-toggler-icon {
+  background-color: #f39c12; /* Change hamburger icon color */
+}
+
+/* Adjust navbar collapse for smaller screens */
+@media (max-width: 767px) {
+  .navbar {
+    padding: 1rem; /* Less padding on small screens */
+  }
+
+  .navbar-nav {
+    text-align: center; /* Center-align links on small screens */
+  }
+
+  .nav-link {
+    margin: 0.5rem 0; /* Reduce spacing between links on small screens */
+  }
+}

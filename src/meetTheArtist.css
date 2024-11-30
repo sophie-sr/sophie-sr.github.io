@@ -1,0 +1,76 @@
+/* MeetTheArtist.css */
+.meet-the-artist {
+  text-align: center;
+  padding: 20px;
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.artist-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.artist-photo {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.artist-bio {
+  max-width: 600px;
+  text-align: left;
+}
+
+.artist-bio-right {
+  max-width: 600px;
+  text-align: right;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+}
+
+/*Guest*/
+.artist-profiles {
+  display: flex;
+  justify-content: space-evenly; /* Distribute profiles evenly */
+  gap: 20px; /* Space between profiles */
+  flex-wrap: wrap; /* Allows for wrapping on smaller screens */
+  width: 80%; /* Set a max-width for the profile section */
+  max-width: 1000px; /* Optional: you can set a max width for large screens */
+  margin: 0 auto; /* Center the profiles section */
+}
+
+.artist-profile {
+  width: 45%; /* Control the width of each profile */
+  text-align: center; /* Center content inside each profile */
+  margin: 20px 0;
+}
+
+.guest-artist-bio {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.guest-artist-bio-left {
+  margin-top: 15px;
+  text-align: right;
+}
+
+#subtxt {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .artist-profile {
+    width: 100%; /* On smaller screens, stack the profiles vertically */
+  }
+}

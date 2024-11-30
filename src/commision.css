@@ -1,0 +1,113 @@
+/* CommissionRequest.css */
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Quicksand:wght@300..700&display=swap');
+
+.commission-request {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.commission-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+input,
+textarea {
+  font-family: 'Quicksand', sans-serif;
+  padding: 10px;
+  margin-top: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Hover effect for input fields */
+input:hover,
+textarea:hover {
+  border-color: #2B3555; /* Change border color */
+}
+
+/* Hover effect when the input field has an error */
+input.error:hover,
+textarea.error:hover {
+  border-color: red; /* Highlight error fields in red on hover */
+}
+
+button.submit-button {
+  padding: 10px 20px;
+  color: #2B3555;
+  border: none;
+  background-color: #FEFAF6;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease; /* Smooth transition for hover */
+}
+
+button.submit-button:hover {
+  border-color: #2B3555; /* Change border color */
+}
+
+button.submit-button:disabled {
+  border-color: #2B3555; /* Change border color */
+  cursor: not-allowed;
+}
+
+#returnToForm {
+  padding: 10px 20px;
+  color: #2B3555;
+  border: none;
+  background-color: #FEFAF6;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease; /* Smooth transition for hover */
+}
+
+#returnToForm:hover {
+  border-color: #2B3555; /* Change border color */
+}
+
+#returnToForm:disabled {
+  border-color: #2B3555; /* Change border color */
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.thank-you-message {
+  text-align: center;
+}
+
+.thank-you-message h2 {
+  color: #5D737E;
+}
+
+.required {
+  color: red; /* Red color for the asterisk */
+}
+
+#req-message {
+  font-size: 12px;
+  text-align: left;
+}
+
+input.error,
+textarea.error {
+  border-color: red; /* Highlight input fields with error */
+}

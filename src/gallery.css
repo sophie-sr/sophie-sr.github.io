@@ -1,0 +1,38 @@
+/* PhotoGallery.css */
+
+/* Styling the gallery container */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Create a responsive grid */
+  gap: 15px; /* Space between images */
+  padding: 20px;
+}
+
+/* Styling individual gallery items */
+.gallery-item {
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.gallery-item:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+/* Styling the images inside the gallery */
+.gallery-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 1px solid #ddd; /* Add a border below the image */
+}
+
+/* Styling the captions */
+.gallery-caption {
+  padding: 10px;
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f9f9f9;
+}
